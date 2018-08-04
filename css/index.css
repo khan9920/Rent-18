@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+header {
+    background-image: url("../images/hero-background-image.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.hero-buttons {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hero-buttons a {
+    float: right;
+    text-decoration: none;
+}
+
+.log-in {
+    background-color: #3490d3;
+    padding: 10px 30px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.sign-up {
+    background-color: #fcb546;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+.hero-search {
+    position: relative;
+    margin: 0 auto;
+    top: 25vh;
+    background-color: #1c5484;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+select {
+    position: relative;
+    text-align: center;
+    border: none;
+    background: #fff;
+    height: 40px;
+    width: 100px;
+    color: grey;
+    font-weight: 500;
+}
+
+.hero-search-input {
+    position: relative;
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-button {
+    position: relative;
+    background-color: #fcb546;
+    padding: 12px 30px;
+    color: #fff;
+}
+
+.hero-heading {
+    position: relative;
+    top: 125px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.orange-text {
+    color: #fcb546;
+}
+
+.custom-heading {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.custom-button-orange {
+    background-color: #fcb546;
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.vehicles {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.explore-more {
+    margin: 0 auto;
+}
