@@ -85,8 +85,7 @@ select {
 
 .custom-heading {
     text-align: center;
-    margin: 0 auto;
-    margin-top: 25px;
+    margin: 25px auto 0;
     width: 100%;
 }
 
@@ -98,8 +97,7 @@ select {
 }
 
 .vehicles {
-    margin: 0 auto;
-    margin-top: 40px;
+    margin: 40px auto 0;
 }
 
 .explore-more {
