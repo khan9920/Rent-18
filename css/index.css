@@ -4,9 +4,8 @@ body {
 }
 
 header {
-    background-image: url("../images/hero-background-image.jpg");
     background-size: cover;
-    background-position: top;
+    background: url("../images/hero-background-image.jpg") top;
     height: 100vh;
 }
 

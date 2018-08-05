@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--UI Kit CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/css/uikit.min.css" />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -83,6 +86,99 @@
     </div>
 </section>
 
+<!--SignIn Modal-->
+<div id="modal-close-outside" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-outside" type="button" uk-close></button>
+        <h2 class="uk-modal-title">Sign In</h2>
+
+        <div class="uk-margin">
+            <input id="txtEmail" class="uk-input" name="email" type="email" placeholder="Email or User Name">
+        </div>
+
+        <div class="uk-margin">
+            <input id="txtPassword" class="uk-input" name="password" type="password" placeholder="Password">
+        </div>
+
+        <div style="float: right">
+            <button id="btnSignIn" class="uk-button uk-button-primary">Sign In</button>
+        </div>
+        <br><br>
+        <div class="uk-alert-primary" uk-alert>
+            <a class="uk-alert-close" uk-close></a>
+            <p>Don't have an account yet? <a uk-toggle="target: #modal-sign-up"><u>Sign Up</u></a></p>
+        </div>
+    </div>
+</div>
+<!--End SignIn modal-->
+
+<!--Sign Up Modal-->
+<div id="modal-sign-up" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-outside" type="button" uk-close></button>
+        <h2 class="uk-modal-title">Sign Up</h2>
+
+        <div uk-grid>
+            <div class="uk-grid">
+                <div class="uk-width-1-2">
+                    <input class="uk-input" type="text" placeholder="First Name" required>
+                </div>
+
+                <div class="uk-width-1-2">
+                    <input class="uk-input" type="text" placeholder="Last Name" required>
+                </div>
+
+                <div style="height: 7px"></div>
+                <div class="uk-width-1-1">
+                    <input class="uk-input" type="email" placeholder="Email Address" required>
+                </div>
+
+                <div style="height: 7px"></div>
+                <div class="uk-width-1-1">
+                    <input class="uk-input" type="text" placeholder="Phone Number" required>
+                </div>
+
+                <div style="height: 10px"></div>
+
+                <!--Adding bootstrap grid system-->
+                <div class="row"></div>
+
+                <div class="uk-width-1-5">
+                    <label><input class="uk-radio" type="radio" name="radioButton" checked> Parent</label>
+                </div>
+
+                <div class="uk-width-1-5">
+                    <label><input class="uk-radio" type="radio" name="radioButton"> Student</label>
+                </div>
+
+                <div class="uk-width-1-5">
+                    <label><input class="uk-radio" type="radio" name="radioButton"> Vehicle Owner</label>
+                </div>
+
+                <div class="uk-width-1-5">
+                    <label><input class="uk-radio" type="radio" name="radioButton">Business Owner</label>
+                </div>
+
+                <div style="height: 7px"></div>
+                <div class="uk-width-1-1">
+                    <input class="uk-input" type="password" placeholder="Password" required>
+                </div>
+
+                <div style="height: 7px"></div>
+                <div class="uk-width-1-1">
+                    <input class="uk-input" type="password" placeholder="Confirm Password" required>
+                </div>
+
+                <div style="height: 7px"></div>
+                <div class="uk-width-1-1">
+                    <label>
+                        <input class="uk-checkbox" type="checkbox" required>
+                        I agree to the terms and conditions.
+                    </label>
+                </div>
+            </div>
+        </div>
+
 <footer>
 
 </footer>
@@ -92,5 +188,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit-icons.min.js"></script>
 </body>
 </html>
