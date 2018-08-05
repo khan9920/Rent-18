@@ -9,6 +9,10 @@ header {
     height: 100vh;
 }
 
+.no-margin {
+    margin: 0;
+}
+
 .hero-buttons {
     width: 100%;
     margin-top: 20px;
@@ -100,4 +104,46 @@ select {
 
 .explore-more {
     margin: 0 auto;
+}
+
+.footer-top-row {
+    background-color: #fcb546;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+.footer-top-text {
+    display: inline-block;
+    float: left;
+    color: #fff;
+}
+
+.footer-button {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #616878;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.footer-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #fff;
 }
