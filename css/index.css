@@ -145,3 +145,6 @@ footer {
     text-decoration: none;
     color: #fff;
 }
+footer ion-icon {
+    font-size: 30px !important;
+}
