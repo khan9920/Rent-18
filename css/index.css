@@ -148,3 +148,11 @@ footer {
 footer ion-icon {
     font-size: 30px !important;
 }
+
+#modal-sign-up label {
+    margin-right: 10px;
+}
+
+#modal-sign-up label input {
+    margin-right: 5px;
+}
