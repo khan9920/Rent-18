@@ -1,0 +1,42 @@
+form {
+    text-align: center;
+    width: 100%;
+}
+
+h4 {
+    margin: 25px 0px;
+}
+
+input {
+    padding: 9px 20px;
+    margin: 5px 0px;
+}
+
+.save {
+    background-color: #3490d3;
+    padding: 10px 30px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.cancel {
+    background-color: #fcb546;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+form .col-md-6 {
+    display: inline !important;
+}
+
+.main-container {
+    border: 3px solid #3490d3;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border-radius: 14px;
+    padding-bottom: 13px;
+}
+
+.heading-container h2 {
+    margin: 20px 0px;
+}

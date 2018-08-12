@@ -1,0 +1,19 @@
+form {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 35px;
+}
+
+input {
+    padding: 9px 20px;
+    margin: 5px 0px;
+}
+
+button {
+    background-color: #3490d3;
+    padding: 10px 30px;
+    color: #fff;
+    margin-left: 20px;
+}

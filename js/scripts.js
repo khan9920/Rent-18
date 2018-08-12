@@ -86,3 +86,9 @@ function signupAction() {
         }
     }
 }
+
+function cancel() {
+    document.getElementById('cancel_button').addEventListener("click", function(){
+        window.open("../index.html")
+    });
+}
